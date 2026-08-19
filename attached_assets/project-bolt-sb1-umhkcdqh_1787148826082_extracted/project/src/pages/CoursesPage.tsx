@@ -217,7 +217,6 @@ export function CoursesPage({ nodes, sortMode, onNavigate, reload }: CoursesPage
       {formState.open && (
         <NodeForm
           node={formState.node}
-          parentId={formState.parentId}
           orderMax={orderMax}
           isRoot={formState.isRoot}
           onClose={closeForm}

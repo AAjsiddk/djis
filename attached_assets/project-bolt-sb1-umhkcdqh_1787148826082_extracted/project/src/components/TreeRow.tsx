@@ -54,8 +54,6 @@ export function TreeRow({
   const hasChildren = node.children.length > 0;
   const progress = nodeProgress(allNodes, node.id);
   const index = siblings.findIndex((s) => s.id === node.id);
-  const isRoot = node.parent_id === null;
-  const isLeaf = !hasChildren;
 
   const indent = depth * 24;
 
@@ -237,14 +235,12 @@ export function TreeRow({
 // ---------- Node form modal ----------
 export function NodeForm({
   node,
-  parentId,
   orderMax,
   isRoot,
   onClose,
   onSave,
 }: {
   node: TreeNode | null;
-  parentId: string | null;
   orderMax: number;
   isRoot: boolean;
   onClose: () => void;

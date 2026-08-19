@@ -9,7 +9,6 @@ import {
 } from 'lucide-react';
 import type { Page, TreeNode } from '@/types';
 import {
-  buildTree,
   nodeProgress,
   overallProgress,
   pathOf,

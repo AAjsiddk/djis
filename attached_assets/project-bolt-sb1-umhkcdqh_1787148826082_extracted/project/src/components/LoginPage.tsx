@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Eye, EyeOff, KeyRound, Loader2, Lock, TrendingUp } from 'lucide-react';
+import { Eye, EyeOff, Loader2, Lock, TrendingUp } from 'lucide-react';
 import { useAuth } from '@/lib/auth';
 
 export function LoginPage() {
