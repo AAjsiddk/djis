@@ -1,0 +1,12 @@
+{
+  "framework": "vite",
+  "installCommand": "cd attached_assets/project-bolt-sb1-umhkcdqh_1787148826082_extracted/project && npm ci",
+  "buildCommand": "cd attached_assets/project-bolt-sb1-umhkcdqh_1787148826082_extracted/project && npm run build",
+  "outputDirectory": "attached_assets/project-bolt-sb1-umhkcdqh_1787148826082_extracted/project/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
